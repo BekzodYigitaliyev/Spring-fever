@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(141, 139, 138); 
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  width: 400px;
+  height: 600px;
+  margin: 3px 600px;
+  border-radius: 20px;
+}
+
+.spring {
+  width: 400px;
+  height: 600px;
+  border-radius: 20px;
+}
+
+.conteiner_text {
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  left: 25%;
+}
+
+.card_title {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: aqua;
+  padding-bottom: 30px;
+}
+
+.line {
+  width: 80px;
+  border-bottom: 2px solid #eadae5;
+  margin-left: 70px;
+}
+
+.card_text {
+  font-family: 'Italiana', sans-serif;
+  color: rgb(241, 241, 233);
+  width: 190px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.text_animation {
+  position: absolute;
+  width: 300px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #fdfcfe;
+  margin-left: -50px;
+  bottom: -500%;
+  transition: all .7s ease-in-out;
+}
+
+.card:hover .text_animation {
+  bottom: -200%;
+  opacity: 0.9;
+}
+
+.card:hover{
+  box-shadow: 0px 2px 14px 2px rgb(38, 39, 57);
+}
+
+.data {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  margin-top: 350px;
+  margin-left: -70px;
+}
+
+.sms{
+  margin-right: 40px;
+}
+
+.bx {
+  color: #dee205;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.number {
+  font-size: 21px;
+  color: white;
+}
